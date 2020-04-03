@@ -1,0 +1,80 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/*ここからmy-code*/
+.header {
+  background-color: #2a83a2;
+  height: 90px;
+  font-family: ;
+}
+
+a.header-logo {
+  font-size: 36px;
+  color: #fff;
+  padding: 20px 40px;
+  float: left;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+a.header-logo:hover {
+  color: #a9a9a9;
+}
+
+.headerlist ul{
+  color: #fff;
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  color: #2a83a2;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+a.self-in-linc {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+a.self-in-linc:hover {
+  color: #a9a9a9;
+}
+
+a.what-saudade-linc {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+a.what-saudade-linc:hover {
+  color: #a9a9a9;
+}
