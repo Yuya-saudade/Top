@@ -1,3 +1,4 @@
+/*CSSのリセット*/
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
@@ -15,10 +16,9 @@ li {
 }
 
 /*ここからmy-code*/
-.header {
+header {
   background-color: #2a83a2;
   height: 90px;
-  font-family: ;
 }
 
 a.header-logo {
@@ -43,38 +43,53 @@ a.header-logo:hover {
   padding: 33px 20px;
 }
 
+a.Profile {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+a.Profile:hover {
+  color: #a9a9a9;
+}
+
+a.Saudade {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+a.Saudade:hover {
+  color: #a9a9a9;
+}
+
 .main {
   color: #2a83a2;
   font-size: 20px;
   padding: 10px 20px;
 }
 
-a.self-in-linc {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  padding: 30px;
-  -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all  0.3s ease;
+footer {
+  background-color: #2a83a2;
+  height: 60px;
+  width: 100%;
+  color: white;
+  cursor: default;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
-a.self-in-linc:hover {
-  color: #a9a9a9;
-}
-
-a.what-saudade-linc {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  padding: 30px;
-  -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all  0.3s ease;
-}
-
-a.what-saudade-linc:hover {
-  color: #a9a9a9;
+footer p {
+  padding-top: 20px;
 }
